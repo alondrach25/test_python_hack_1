@@ -3,6 +3,7 @@ text: "fooziman" output => "foozimaN"
 """
 
 def fn_hack_4():
-    result = "fooziman"
-    #...
+    text = "fooziman"
+    text = text[::-1].capitalize()
+    result = text[::-1]
     return result
